@@ -1,0 +1,37 @@
+.container{
+  margin-top: 50px;
+  /*display: flex;*/
+  justify-content: center;
+}
+
+.row{
+  display: flex;
+  justify-content: center;
+  /*text-align: center;*/
+}
+
+
+/*.card{*/
+  /*margin: 20px;*/
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+
+/*}*/
+
+.card-header{
+  background-color: #001f3f;
+  color: white;
+}
+
+.graduate{
+  width: 80%;
+  margin-bottom: 30px;
+}
+
+.graduate .card{
+  width: 350px;
+  /*margin: 10px;*/
+}
+
+.first{
+  margin-right: 150px;
+}

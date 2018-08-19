@@ -1,0 +1,30 @@
+.container{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  /*text-align: center;*/
+}
+
+.cover{
+  /*background-color: #F3F3F3;*/
+  height: 100%;
+}
+
+.card {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+  height: 50px;
+  width: 50px;
+}
+
+.card-header{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}

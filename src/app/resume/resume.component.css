@@ -1,0 +1,28 @@
+.header {
+  height: 80px;
+  background-color: #428bca;
+  color: white;
+}
+
+
+.alignleft {
+  float: left;
+  text-align:left;
+  width:33.33333%;
+}
+
+.alignleft .nav-link{
+  color: white;
+}
+
+i{
+  margin-top: 12px;
+  font-size: 3em;
+}
+
+.aligncenter {
+  font-size: 3em;
+  float: left;
+  text-align:center;
+  width:33.33333%;
+}

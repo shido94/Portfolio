@@ -1,0 +1,32 @@
+.container{
+  margin-top: 100px;
+}
+
+/*.card{*/
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+  /*!*width: 100%;*!*/
+  /*width: 300px;*/
+  /*height: 300px;*/
+/*}*/
+
+
+.card{
+  width: 18rem;
+  height: 18rem;
+  margin: 25px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card p{
+  color: #353535;
+  line-height: 10px;
+}
+
+.card img{
+  height: 220px;
+
+}
+
+a{
+  text-decoration: none;
+}
