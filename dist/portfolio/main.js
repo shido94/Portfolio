@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".container{\n  margin-top: 50px;\n  /*text-align: center;*/\n}\n\n#motto{\n  text-align: center;\n}\n\n#motto #name{\n  font-size: 3em;\n}\n\n.row{\n  justify-content: center;\n}\n\nimg{\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n}\n\na{\n  margin: 15px;\n}\n"
+module.exports = ".container{\n  margin-top: 50px;\n  /*text-align: center;*/\n}\n\n#motto{\n  text-align: center;\n}\n\n#motto #name{\n  font-size: 3em;\n}\n\n.row{\n  justify-content: center;\n}\n\nimg{\n  width: 50px;\n  height: 50px;\n  border-radius: 50%;\n  border: 1px solid #001f3f;\n}\n\na{\n  margin: 15px;\n}\n"
 
 /***/ }),
 
@@ -363,7 +363,7 @@ var ContactsComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".container{\n  margin-top: 50px;\n  /*display: flex;*/\n  justify-content: center;\n}\n\n.row{\n  display: flex;\n  justify-content: center;\n  /*text-align: center;*/\n}\n\n/*.card{*/\n\n/*margin: 20px;*/\n\n/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/\n\n/*}*/\n\n.card-header{\n  background-color: #001f3f;\n  color: white;\n}\n\n.graduate{\n  width: 80%;\n  margin-bottom: 30px;\n}\n\n.graduate .card{\n  width: 350px;\n  /*margin: 10px;*/\n}\n\n.first{\n  margin-right: 150px;\n}\n"
+module.exports = ".container{\n  margin-top: 50px;\n  /*display: flex;*/\n  justify-content: center;\n}\n\n.row{\n  display: flex;\n  justify-content: center;\n  /*text-align: center;*/\n}\n\n/*.card{*/\n\n/*margin: 20px;*/\n\n/*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/\n\n/*}*/\n\n.card-header{\n  background-color: #475869;\n  color: white;\n}\n\n.graduate{\n  width: 80%;\n  margin-bottom: 30px;\n}\n\n.graduate .card{\n  width: 350px;\n  margin: 20px;\n}\n\n/*.first{*/\n\n/*margin-right: 150px;*/\n\n/*}*/\n"
 
 /***/ }),
 
@@ -491,7 +491,7 @@ var ExperienceComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "nav{\n  background: #001f3f;\n}\n\na img{\n  /*margin: 5px 50px 0 0;*/\n  width: 60px;\n  height: 60px;\n  border: 1px solid #428bca;\n  border-radius: 50%;\n}\n\na{\n  margin-left: 30px;\n  color: #ffff;\n}\n\n.navbar-nav .nav-item .nav-link:hover{\n  color: #ffff;\n}\n\n.nav-link{\n  color: #ffff;\n}\n\n#hello{\n  text-decoration: none;\n  font-family: 'Lato', sans-serif;\n  font-weight: 700;\n  /*color: #E5E5E5;*/\n  border-radius: 45px;\n  color: #ffffff;\n  border: 2px solid white;\n}\n\n.nav-item .nav-link{\n  color: #ffffff;\n  /*border: 1px solid #ffffff;*/\n  border-radius: 8px;\n}\n\n.nav-item .nav-link:hover{\n  color: #001f3f;\n  background-color: white;\n}\n\n/*#nav-content #nav > .active > a {*/\n\n/*color: black;*/\n\n/*!*background-color: black;*!*/\n\n/*}*/\n\n.nav-item .class-name{\n  color: #001f3f;\n  background-color: white;\n}\n\n#says a{\n  margin-right: 20px;\n}\n\n#says a:hover{\n  background-color: #428bca;\n  color: white;\n}\n\n#last{\n  margin-right: 20px;\n}\n\nhr{\n  margin: 0;\n}\n"
+module.exports = "nav{\n  background: #475869;\n}\n\na img{\n  /*margin: 5px 50px 0 0;*/\n  width: 60px;\n  height: 60px;\n  border: 1px solid #428bca;\n  border-radius: 50%;\n}\n\na{\n  margin-left: 30px;\n  color: #ffff;\n}\n\n.navbar-nav .nav-item .nav-link:hover{\n  color: #ffff;\n}\n\n.nav-link{\n  color: #ffff;\n}\n\n#hello{\n  text-decoration: none;\n  font-family: 'Lato', sans-serif;\n  font-weight: 700;\n  /*color: #E5E5E5;*/\n  border-radius: 45px;\n  color: #ffffff;\n  border: 2px solid white;\n}\n\n.nav-item .nav-link{\n  color: #ffffff;\n  /*border: 1px solid #ffffff;*/\n  border-radius: 8px;\n}\n\n.nav-item .nav-link:hover{\n  color: #001f3f;\n  background-color: white;\n}\n\n/*#nav-content #nav > .active > a {*/\n\n/*color: black;*/\n\n/*!*background-color: black;*!*/\n\n/*}*/\n\n.nav-item .class-name{\n  color: #001f3f;\n  background-color: white;\n}\n\n#says a{\n  margin-right: 20px;\n}\n\n#says a:hover{\n  background-color: #428bca;\n  color: white;\n}\n\n#last{\n  margin-right: 20px;\n}\n\nhr{\n  margin: 0;\n}\n"
 
 /***/ }),
 
@@ -700,7 +700,7 @@ module.exports = ".container{\n  margin-top: 100px;\n}\n\n/*.card{*/\n\n/*box-sh
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<app-header></app-header>\n<div class=\"container\">\n  <div class=\"row\">\n\n    <div class=\"card\" >\n      <img  class=\"card-img-top\" src=\"../../assets/images/coll.png\" alt=\"Card image cap\">\n      <div class=\"card-body\">\n        <p><a routerLink=\"\">A Chat app to talk with strangers</a></p>\n      </div>\n    </div>\n    <div class=\"card\" >\n      <img  class=\"card-img-top\" src=\"../../assets/images/apni.png\" alt=\"Card image cap\">\n      <div class=\"card-body\">\n        <p><a routerLink=\"\">App to interact users and doctors</a></p>\n      </div>\n    </div>\n  </div>\n</div>\n"
+module.exports = "<app-header></app-header>\n<div class=\"container\">\n  <div class=\"row\">\n\n    <div class=\"card\" >\n      <img  class=\"card-img-top\" src=\"../../assets/images/coll.png\" alt=\"Card image cap\">\n      <div class=\"card-body\">\n        <p><a href=\"https://colloque.herokuapp.com/\" target=\"_blank\">A Chat app to talk with strangers</a></p>\n      </div>\n    </div>\n    <div class=\"card\" >\n      <img  class=\"card-img-top\" src=\"../../assets/images/apni.png\" alt=\"Card image cap\">\n      <div class=\"card-body\">\n        <p><a href=\"https://www.apnicare.com/\" target=\"_blank\">App to interact users and doctors</a></p>\n      </div>\n    </div>\n  </div>\n</div>\n"
 
 /***/ }),
 
@@ -815,7 +815,7 @@ var ResumeComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".cover{\n  /*background-color: #F3F3F3;*/\n  height: 100%;\n}\n\nimg{\n  width: 100px;\n  height: 100px;\n  margin: 50px;\n}\n\np{\n  margin-left: 60px;\n}\n\n.card{\n  margin-top: 50px;\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\n}\n\n.card .card-header{\n  background-color: #001f3f;\n  color: white;\n}\n"
+module.exports = ".cover{\n  /*background-color: #F3F3F3;*/\n  height: 100%;\n}\n\nimg{\n  width: 100px;\n  height: 100px;\n  margin: 50px;\n}\n\np{\n  margin-left: 60px;\n}\n\n.card{\n  margin-top: 50px;\n  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\n}\n\n.card .card-header{\n  background-color: #475869;\n  color: white;\n}\n\n.card .card-body {\n  display: flex;\n  justify-content: center;\n}\n\n@media screen and (max-width: 600px) {\n  img{\n    width: 200px;\n    height: 150px;\n    margin: 50px;\n  }\n  p{\n    margin-left: 115px;\n  }\n}\n"
 
 /***/ }),
 
