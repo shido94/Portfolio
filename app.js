@@ -32,7 +32,7 @@ app.get('*', (req, res) => {
 // Server connection API
 
 const server = http.createServer(app);
-server.listen(port, () =>{
+server.listen(process.env.PORT || port, () =>{
   console.log('Server running at port ', port);
 });
 
