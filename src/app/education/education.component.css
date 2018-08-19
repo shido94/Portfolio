@@ -18,7 +18,7 @@
 /*}*/
 
 .card-header{
-  background-color: #001f3f;
+  background-color: #475869;
   color: white;
 }
 
@@ -29,9 +29,9 @@
 
 .graduate .card{
   width: 350px;
-  /*margin: 10px;*/
+  margin: 20px;
 }
 
-.first{
-  margin-right: 150px;
-}
+/*.first{*/
+  /*margin-right: 150px;*/
+/*}*/

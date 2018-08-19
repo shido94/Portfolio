@@ -19,6 +19,22 @@ p{
 }
 
 .card .card-header{
-  background-color: #001f3f;
+  background-color: #475869;
   color: white;
+}
+
+.card .card-body {
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  img{
+    width: 200px;
+    height: 150px;
+    margin: 50px;
+  }
+  p{
+    margin-left: 115px;
+  }
 }
