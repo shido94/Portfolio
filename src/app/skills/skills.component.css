@@ -28,6 +28,10 @@ p{
   justify-content: center;
 }
 
+#last{
+  margin-bottom: 20px;
+}
+
 @media screen and (max-width: 600px) {
   img{
     width: 200px;
